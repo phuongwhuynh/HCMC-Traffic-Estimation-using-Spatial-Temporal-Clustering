@@ -7,9 +7,16 @@ In this study, I apply the methodology presented in the following two papers wit
 
 By leveraging these methodologies, I analyze urban traffic congestion patterns using historical floating car data while adapting the spatial-temporal clustering approach of ST-DBSCAN to better fit the characteristics of HCMC’s road network and traffic conditions.
 
-### Run:
-`pip install st-dbscan`
-Run: cluster.py -> aggregate.py -> (plot.py/timelapse.py)
+### Installation  
+To install the required package, run:  
+```bash
+pip install st-dbscan
+```
+Run the scripts in the following order:  
+
+- `cluster.py`  
+- `aggregate.py`  
+- `plot.py` (for static visualization) **or** `timelapse.py` (for time-series animation)  
 
 ### Result:
 
